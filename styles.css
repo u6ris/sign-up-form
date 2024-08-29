@@ -65,15 +65,7 @@ a{
     font-weight: bold;
     font-size:22px
 }
-.form{
-    background-color: white;
-    padding: 0 0 30px 30px;
-    box-shadow: 5px 5px 5px rgb(187, 185, 185);
-}
 
-.form p{
-    font-size: 16px;
-}
 
 .bottom {
     margin-left: 30px;
@@ -100,19 +92,31 @@ button{
 }
 
 
+form{
+   display: flex;
+   flex-direction: column;
+    margin: 0;
+    gap: 30px;
+}
+
+.form-container{
+    background-color: white;
+    padding: 0 0 30px 30px;
+    box-shadow: 5px 5px 5px rgb(187, 185, 185);
+}
+
+.form{
+    display: flex;
+    gap: 20px;
+}
+
 fieldset{
     display: flex;
     flex-direction: column;
     border: none;
-    gap: 8px;
+    gap: 10px;
     margin: 0;
     padding: 0;
-}
-
-form{
-    display: flex;
-    margin: 0;
-    gap: 30px;
 }
 
 label{
