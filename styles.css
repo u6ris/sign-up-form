@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url("./Norse-Bold.otf");
+}
+
+body{
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(245, 245, 245);
+}
+
+
+.aside{
+    display: flex;
+    flex-direction: column ;
+    width: 60%;
+    height: 100%;
+    background-image: url(eugene-golovesov-caihSqoTSiM-unsplash.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    margin-top: 30%;    
+    color: white;
+    font-size: 60px;
+    font-family: "Norse-Bold";
+}
+
+img{
+    height: 80%;
+}
+
+.credit{
+    text-align: center;
+    justify-self: flex-end;
+    color: white;
+}
+
+a{
+    color: rgb(224, 134, 0);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    font-family: "Roboto";
+    width: 100%;
+}
+
+.top{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size:22px
+}
+.form{
+    background-color: white;
+    padding: 0 0 30px 30px;
+    box-shadow: 5px 5px 5px rgb(187, 185, 185);
+}
+
+.form p{
+    font-size: 16px;
+}
+
+.bottom {
+    margin-left: 30px;
+}
+
+button{
+    border: none;
+    background-color: rgb(255, 191, 96);
+    padding:  12px 0px;
+    width: 175px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgb(187, 185, 185);
+}
+
+.bottom > p{
+    font-size: 14px;
+}
+
+.bottom a{
+    color:  rgb(255, 191, 96);
+    font-weight: bold;
+}
+
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: flex;
+    margin: 0;
+    gap: 30px;
+}
+
+label{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+input{
+    border:solid #E5E7EB ;
+    border-radius: 5px;
+}
+
+input:invalid{
+    border: #d83a526b;
+}
+
+input:focus{
+    border: #2616d3c6;
+}
